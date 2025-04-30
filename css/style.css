@@ -290,6 +290,7 @@ body{
     transform: translateX(-50%);
     margin: 80px 0;
     background: #F4F3EB;
+  
     background: linear-gradient(90deg,rgba(244, 243, 235, 0.14) 0%, rgba(244, 243, 235, 0.61) 40%, rgba(244, 243, 235, 0.71) 0%);
 }
 .hero_list_container{
@@ -297,6 +298,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px 15px;
+    
 }
 .icon_text{
     display: flex;

@@ -1,7 +1,7 @@
 @media only screen and (max-width: 540px){
     .container {
         width: 100%;
-        overflow-x: hidden;
+        
     }
     
     /* .first_section{
@@ -740,11 +740,13 @@ td{
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 24px;
+    
 }
 .hero_text {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
+    
 }
 .white_btn {
     font-weight: 500;
@@ -752,6 +754,8 @@ td{
     padding: 20px 24px;
 }
 .hero_buttons {
+   
+}
     
 /* justify-content: flex-start; */
     
@@ -765,16 +769,9 @@ td{
     height: 100%;
 }
 
-.hero_section, .hero_container_section, .menu_part, .company_logo_container, 
-    .footer_menu_content, .footer_container, .reclaim_section {
-        overflow-x: hidden;
-    }
-    .hero_image, .hero_right_image, .img_card {
-        max-width: 100%;
-        object-fit: contain; 
-    }   
+ 
 /*revision hero banner section*/
-}
+
 
 @media only screen and (max-width: 992px){
     .container {
@@ -787,7 +784,7 @@ td{
 
  
 
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 540px){
     *Hero List Icons Section*/
 .list_icon_section {
     margin: 10px 0 !important;
