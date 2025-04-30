@@ -817,6 +817,7 @@ td{
     padding: 10px 0;
     width: 50%;
     justify-content: flex-start;
+    /* width: 100%; */
 }
 
 .hero_icon_text {
@@ -830,8 +831,7 @@ td{
 }
 
 .list_icon_section {
-    margin: 10px 0 ;
-   
+    margin: 10px 0px;
 }
 /*Hero List Icons Section*/
   }  
