@@ -219,10 +219,11 @@ body{
     justify-content: center;
     align-items: center;
     padding-top: 86px;
-    gap: 95px;
+    gap: 80px;
+    flex-wrap: wrap;
 }
 .hero_docs{
-    max-width: 780px;
+    max-width: calc(60% - 40px);
 }
 .hero_main_title{
     font-size: 72px;
@@ -278,19 +279,18 @@ body{
     color: #5E5E66;
 }
 .hero_right_image{
-    max-width: 740px;
+    max-width: calc(40% - 40px);
 }
 /*revision hero banner section*/
 
 /*Hero List Icons Section*/
 .list_icon_section{
     position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 80px 0;
+    width: 100%;
+    bottom: 80px;
+    left: 0;
+    transform: translateX(0%);
     background: #F4F3EB;
-  
     background: linear-gradient(90deg,rgba(244, 243, 235, 0.14) 0%, rgba(244, 243, 235, 0.61) 40%, rgba(244, 243, 235, 0.71) 0%);
 }
 .hero_list_container{
@@ -298,12 +298,12 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px 15px;
-    
+    flex-wrap: wrap;
 }
 .icon_text{
     display: flex;
     align-items: center;
-    padding: 0 6% 0 6%;
+    padding: 0 30px;
     border-right: 1px solid #3636363b;
     gap: 10px;
 }
@@ -414,11 +414,12 @@ body{
     right: 20px;
     padding: 0;
     border-radius: 0;
-    height: 95%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 32px;
+    width: 100%;
   }
   
   .bones_title {
@@ -464,6 +465,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     padding: 32px;
+    width: 100%;
 }
    /*img_container_two style*/
 /*weight loss section*/

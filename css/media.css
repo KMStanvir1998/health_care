@@ -4,158 +4,7 @@
         overflow-x: hidden !important;
     }
     
-    /* .first_section{
-        margin: auto;
-         display: flex; 
-        justify-content: center; 
-    } */
-    /*Hero banner section */
-    /* .hero{
-        width: 100%;
-        height: 1200px;
-        margin: auto;
-        position: relative;
-    }
-    .hero_section{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        margin: 0px auto;
-        position: absolute;
-        top: 5%;
-        padding: 0 15px;
-    }
-    .logo{
-        width: 100px;
-        height: auto;
-        object-fit: contain;
-    } */
-    /* .menu_part{
-        display: none;
-        justify-content: center;
-         align-items: center; 
-         gap: 25px; 
-    } */
-    /* .menu_item{
-        list-style: none;
-        cursor: pointer;
-    } */
-    /* .menu_name{
-        text-decoration: none;
-        color: #363636;
-    } */
-    /* .cart_section{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    } */
-    /* .cart_image{} */
-    /* .cart_title{
-        font-size: 16px;
-        font-weight: 400;
-    } */
-    /* .cart_number{
-        background-color: black;
-        color: #ffffff;
-        padding: 5px 8px;
-        border-radius: 100%;
-    } */
-    /* .hamburger{
-        width: 18px;
-        display: block;
-    } */
-    /*Hero banner section */
-
-    /*Hero container section */
-    /* .hero_container_section {
-    display: flex;
-    position: absolute;
-    top: 20%;
-    width: 100%;
-    margin: 0 auto;
-    gap: 30px;
-    left: 0;
-    transform: none;
-    flex-direction: column-reverse;
-    padding: 0 16px;
-} */
-/* .hero_image {
-    width: 280px;
-    height: auto;
-    object-fit: cover;
-}
-.hero_main_title {
-    font-size: 32px;
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-.hero_text {
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 20px;
-}
-.hero_guranty {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 5px;
-}
-
-.blue_btn {
-    padding: 10px 12px;
-  }
-  .white_btn {
-    padding: 10px 12px;
-} */
-/*Hero container section */
-
-/*Hero List Icons Section*/
-/* .hero_list_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-}
-.icon_text {
-    display: flex;
-    padding-right: 30px;
-    margin: 0;
-    padding: 10px 7px;
-    gap: 7px;
-}
-.icon_text:first-child, .icon_text:nth-child(2){
-    border-bottom: 1px solid #3636363b;
-    
-}
-.icon_text:nth-child(2){
-    border-right: 0;
-    padding-right: 0;
-    gap: 7px;
-}
-
-.hero_list_container{
-    bottom: -15%;
-}
-
-.hero_list_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 10px 0;
-    width: 50%;
-}
-
-.hero_icon_text {
-    white-space: nowrap;
-    font-size: 12px;
-    font-weight: 500;
-    color: #1B1D1F;
-}
-.hero_icon{
-    width: 24px;
-} */
-/*Hero List Icons Section*/
-
-/*Ass Seen On Section*/
+    /*Ass Seen On Section*/
 .asseen_title {
     text-align: center;
     font-size: 16px;
@@ -729,6 +578,7 @@ td{
     flex-direction: column-reverse;
     padding: 24px;
     gap: 60px;
+    flex-wrap: nowrap;
 }
 .hero_right_image {
     max-width: 382px;
@@ -840,6 +690,7 @@ td{
 
 .list_icon_section {
     margin: 10px 0px;
+    bottom: 0;
 }
 /*Hero List Icons Section*/
   } 
