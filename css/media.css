@@ -1,6 +1,7 @@
 @media only screen and (max-width: 540px){
     .container {
         width: 100%;
+        overflow-x: hidden;
     }
     
     /* .first_section{
@@ -764,8 +765,14 @@ td{
     height: 100%;
 }
 
-
-
+.hero_section, .hero_container_section, .menu_part, .company_logo_container, 
+    .footer_menu_content, .footer_container, .reclaim_section {
+        overflow-x: hidden;
+    }
+    .hero_image, .hero_right_image, .img_card {
+        max-width: 100%;
+        object-fit: contain; 
+    }   
 /*revision hero banner section*/
 }
 
@@ -834,12 +841,4 @@ td{
     margin: 10px 0px;
 }
 /*Hero List Icons Section*/
-  }  
-
-
-
-
-
-
-
-
+  } 
